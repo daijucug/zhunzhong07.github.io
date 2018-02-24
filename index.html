@@ -87,6 +87,7 @@ var _hmt = _hmt || [];
       <h2>News</h2>
       <div class="paper">
         <ul>
+	    <li><strong>[2018.02.24]</strong> One paper is accepted to CVPR 2018. <img src="http://www-bcf.usc.edu/~iacopoma/img/rss-2x.png" /></li>
             <li><strong>[2017.09.23]</strong> The code of "Random Erasing Data Augmentation" is available. <a href="https://arxiv.org/abs/1708.04896">[PDF]</a> <a href="https://github.com/zhunzhong07/Random-Erasing">[Code].</a><img src="http://www-bcf.usc.edu/~iacopoma/img/rss-2x.png" /></li>
             <li><strong>[2017.03.04]</strong> "Re-ranking Person Re-identification with k-reciprocal Encoding" is accepted to CVPR 2017. Code and the CUHK03 new training/testing protocol is available. <a href="https://github.com/zhunzhong07/person-re-ranking">Link.</a><img src="http://www-bcf.usc.edu/~iacopoma/img/rss-2x.png" /></li>
             <li><strong>[2016.02.26]</strong> One paper is accepted to Neurocomputing 2017. <img src="http://www-bcf.usc.edu/~iacopoma/img/rss-2x.png" /></li>
@@ -101,34 +102,8 @@ var _hmt = _hmt || [];
 
     <div class="section">
     <h2 id="reports">Arxiv Papers</h2>
-	    
-      
-       <div class="paper" id="camstyle">
-      <img class="paper" title="Camera Style Adaptation for Person Re-identification" src="./camstyle.jpg" />
-      <div>
-        <a class="paper" href="https://arxiv.org/abs/1711.10295" target="_blank">Camera Style Adaptation for Person Re-identification</a><br />
-        <strong>Zhun Zhong</strong>, Liang Zheng, Zhedong Zheng, Shaozi Li, Yi Yang<br />
-        Arxiv, 2017<br />
-        <a shape="rect" href="javascript:toggleabs('camstyle')" class="toggleabs">abstract</a> /
-        <a shape="rect" href="javascript:togglebib('camstyle')" class="togglebib">bibtex</a>  /
-        <a shape="rect" href="https://arxiv.org/abs/1711.10295" target="_blank" >PDF</a>/ 
-        <pre xml:space="preserve">
-@article{zhong2017camera,
-  title={Camera Style Adaptation for Person Re-identification},
-  author={Zhong, Zhun and Zheng, Liang and Zheng, Zhedong and Li, Shaozi and Yang, Yi},
-  journal={arXiv preprint arXiv:1711.10295},
-  year={2017}
-}
-        </pre>
-        <span class="blurb">
-Being a cross-camera retrieval task, person re-identification suffers from image style variations caused by different cameras. The art implicitly addresses this problem by learning a camera-invariant descriptor subspace. In this paper, we explicitly consider this challenge by introducing camera style (CamStyle) adaptation. CamStyle can serve as a data augmentation approach that smooths the camera style disparities. Specifically, with CycleGAN, labeled training images can be style-transferred to each camera, and, along with the original training samples, form the augmented training set. This method, while increasing data diversity against over-fitting, also incurs a considerable level of noise. In the effort to alleviate the impact of noise, the label smooth regularization (LSR) is adopted. The vanilla version of our method (without LSR) performs reasonably well on few-camera systems in which over-fitting often occurs. With LSR, we demonstrate consistent improvement in all systems regardless of the extent of over-fitting. We also report competitive accuracy compared with the state of the art.        </span>
-      </div>
-      <div class="spanner"></div>
-    </div>
- </div>   	    
-	    
-	    
-	          
+	    	    
+	           
        <div class="paper" id="Erasing">
       <img class="paper" title="Random Erasing Data Augmentation" src="./erasing.jpg" />
       <div>
@@ -160,13 +135,41 @@ In this paper, we introduce Random Erasing, a new data augmentation method for t
 
     <div class="section">
     <h2 id="reports">Publications</h2>
+	    
+	    
+      
+       <div class="paper" id="camstyle">
+      <img class="paper" title="Camera Style Adaptation for Person Re-identification" src="./camstyle.jpg" />
+      <div>
+        <a class="paper" href="https://arxiv.org/abs/1711.10295" target="_blank">Camera Style Adaptation for Person Re-identification</a><br />
+        <strong>Zhun Zhong</strong>, Liang Zheng, Zhedong Zheng, Shaozi Li, Yi Yang<br />
+        IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018<br />
+        <a shape="rect" href="javascript:toggleabs('camstyle')" class="toggleabs">abstract</a> /
+        <a shape="rect" href="javascript:togglebib('camstyle')" class="togglebib">bibtex</a>  /
+        <a shape="rect" href="https://arxiv.org/abs/1711.10295" target="_blank" >PDF</a>/ 
+        <pre xml:space="preserve">
+@inproceedings{zhong2018camera,
+  title={Camera Style Adaptation for Person Re-identification},
+  author={Zhong, Zhun and Zheng, Liang and Zheng, Zhedong and Li, Shaozi and Yang, Yi},
+  booktitle={arXiv preprint arXiv:1711.10295},
+  year={2017}
+}
+        </pre>
+        <span class="blurb">
+Being a cross-camera retrieval task, person re-identification suffers from image style variations caused by different cameras. The art implicitly addresses this problem by learning a camera-invariant descriptor subspace. In this paper, we explicitly consider this challenge by introducing camera style (CamStyle) adaptation. CamStyle can serve as a data augmentation approach that smooths the camera style disparities. Specifically, with CycleGAN, labeled training images can be style-transferred to each camera, and, along with the original training samples, form the augmented training set. This method, while increasing data diversity against over-fitting, also incurs a considerable level of noise. In the effort to alleviate the impact of noise, the label smooth regularization (LSR) is adopted. The vanilla version of our method (without LSR) performs reasonably well on few-camera systems in which over-fitting often occurs. With LSR, we demonstrate consistent improvement in all systems regardless of the extent of over-fitting. We also report competitive accuracy compared with the state of the art.        </span>
+      </div>
+      <div class="spanner"></div>
+    </div>
+ </div>   
+	    
+	    
       
        <div class="paper" id="Reranking-reid">
       <img class="paper" title="Re-ranking Person Re-identification with k-reciprocal Encoding" src="./person-re-ranking.jpg" />
       <div>
         <a class="paper" href="./paper/re-ranking-cvpr.pdf" target="_blank">Re-ranking Person Re-identification with k-reciprocal Encoding</a><br />
         <strong>Zhun Zhong</strong>, Liang Zheng, Donglin Cao,Shaozi Li<br />
-        CVPR, 2017<br />
+        IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017<br />
         <a shape="rect" href="javascript:toggleabs('Reranking-reid')" class="toggleabs">abstract</a> /
         <a shape="rect" href="javascript:togglebib('Reranking-reid')" class="togglebib">bibtex</a>  /
         <a shape="rect" href="./paper/re-ranking-cvpr.pdf" target="_blank" >PDF</a>/ 
