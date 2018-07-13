@@ -87,11 +87,10 @@ var _hmt = _hmt || [];
       <h2>News</h2>
       <div class="paper">
         <ul>
+	    <li><strong>[2018.07.07]</strong> One paper is accepted to ECCV 2018. <img src="http://www-bcf.usc.edu/~iacopoma/img/rss-2x.png" /></li>
 	    <li><strong>[2018.02.24]</strong> One paper is accepted to CVPR 2018. <img src="http://www-bcf.usc.edu/~iacopoma/img/rss-2x.png" /></li>
             <li><strong>[2017.09.23]</strong> The code of "Random Erasing Data Augmentation" is available. <a href="https://arxiv.org/abs/1708.04896">[PDF]</a> <a href="https://github.com/zhunzhong07/Random-Erasing">[Code].</a><img src="http://www-bcf.usc.edu/~iacopoma/img/rss-2x.png" /></li>
-            <li><strong>[2017.03.04]</strong> "Re-ranking Person Re-identification with k-reciprocal Encoding" is accepted to CVPR 2017. Code and the CUHK03 new training/testing protocol is available. <a href="https://github.com/zhunzhong07/person-re-ranking">Link.</a><img src="http://www-bcf.usc.edu/~iacopoma/img/rss-2x.png" /></li>
-            <li><strong>[2016.02.26]</strong> One paper is accepted to Neurocomputing 2017. <img src="http://www-bcf.usc.edu/~iacopoma/img/rss-2x.png" /></li>
-            <li><strong>[2016.12.01]</strong> ID-discriminative Embedding baseline on Market-1501 is available. <a href="https://github.com/zhunzhong07/IDE-baseline-Market-1501">[Code]</a> <img src="http://www-bcf.usc.edu/~iacopoma/img/rss-2x.png" /></li>        
+            <li><strong>[2017.03.04]</strong> "Re-ranking Person Re-identification with k-reciprocal Encoding" is accepted to CVPR 2017. Code and the CUHK03 new training/testing protocol is available. <a href="https://github.com/zhunzhong07/person-re-ranking">Link.</a><img src="http://www-bcf.usc.edu/~iacopoma/img/rss-2x.png" /></li>    
         </ul>
       </div>
     </div>
@@ -134,6 +133,30 @@ In this paper, we introduce Random Erasing, a new data augmentation method for t
     <div class="section">
     <h2 id="reports">Publications</h2>
 	    
+       <div class="paper" id="hhl">
+      <img class="paper" title="Generalizing A Person Retrieval Model Hetero- and Homogeneously" src="./camstyle.jpg" />
+      <div>
+        <a class="paper" href="./paper/HHL.pdf" target="_blank">Generalizing A Person Retrieval Model Hetero- and Homogeneously</a><br />
+        <strong>Zhun Zhong</strong>, Liang Zheng, Shaozi Li, Yi Yang<br />
+        European Conference on Computer Vision (ECCV), 2018<br />
+        <a shape="rect" href="javascript:toggleabs('hhl')" class="toggleabs">abstract</a> /
+        <a shape="rect" href="javascript:togglebib('hhl')" class="togglebib">bibtex</a>  /
+        <a shape="rect" href="./HHL.pdf" target="_blank" >PDF</a>/
+	<a shape="rect" href="https://github.com/zhunzhong07/HHL" target="_blank" >Code</a>
+        <pre xml:space="preserve">
+@inproceedings{zhong2018generalizing,
+  title={Generalizing A Person Retrieval Model Hetero- and Homogeneously},
+  author={Zhong, Zhun and Zheng, Liang and Li, Shaozi and Yang, Yi},
+  booktitle ={ECCV},
+  year={2018}
+}
+        </pre>
+        <span class="blurb">
+Person re-identiﬁcation (re-ID) poses unique challenges for unsupervised domain adaptation (UDA) in that classes in the source and target sets (domains) are entirely diﬀerent and that images variations are largely caused by cameras. Given a labeled source training set and an unlabeled target training set, we aim to improve the generalization ability of re-ID models on the target testing set. To this end, we introduce a Hetero-Homogeneous Learning (HHL) method. Our method enforces two properties simultaneously: 1) camera invariance, learned via positive pairs formed by unlabeled target images and their camera style transferred counterparts; 2) domain connectedness, by regarding source / target images as negative matching pairs to the target / source images. The ﬁrst property is implemented by homogeneous learning because training pairs are collected from the same domain. The second property is achieved by heterogeneous learning because we sample training pairs from both the source and target domains. On Market-1501, DukeMTMC-reID and CUHK03, we show that the two properties contribute indispensably and that very competitive re-ID UDA accuracy is achieved.
+      </div>
+      <div class="spanner"></div>
+    </div>
+ </div> 
 	    
       
        <div class="paper" id="camstyle">
